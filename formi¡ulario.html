@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de contactos con código QR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulario de contactos</h1>
+  <form id="contacto-form">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <label for="empresa">Empresa (opcional):</label>
+    <input type="text" id="empresa" name="empresa">
+
+    <label for="sitio-web">Sitio web (opcional):</label>
+    <input type="url" id="sitio-web" name="sitio-web">
+
+    <label for="notas">Notas (opcional):</label>
+    <textarea id="notas" name="notas"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <iframe src="index.html" id="qr-iframe" style="width: 256px; height: 256px;"></iframe>
+  <script src="script.js"></script>
+</body>
+</html>

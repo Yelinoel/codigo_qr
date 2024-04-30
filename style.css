@@ -1,0 +1,45 @@
+/* Basic styling for the form */
+#contacto-form {
+    width: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contacto-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contacto-form input,
+  #contacto-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #contacto-form textarea {
+    height: 100px; /* Adjust as needed */
+  }
+  
+  #contacto-form button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the QR code container */
+  #qr-container {
+    width: 256px; /* Adjust as needed */
+    height: 256px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
